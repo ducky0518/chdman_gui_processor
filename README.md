@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application provides a user-friendly graphical interface (GUI) for compressing disc images (such as `.cue/bin`, `.iso`, `.gdi`) into the `.chd` (Compressed Hunks of Data) format, and for extracting `.chd` files back to these disc image formats. It utilizes `chdman.exe` (from MAME) for the conversion processes.
+This application provides a user-friendly graphical interface (GUI) for compressing disc images (such as `.cue/bin`, `.iso`, `.gdi`) into the `.chd` (Compressed Hunks of Data) format, and for extracting `.chd` files back to these disc image formats. It natively supports scanning and processing of .zip files. It utilizes `chdman.exe` (from MAME) for the conversion processes.
 
 This tool is built using Python and the CustomTkinter library.
 
