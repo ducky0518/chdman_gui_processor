@@ -78,30 +78,6 @@ This section describes how to run the application directly using Python.
     (Replace `chd_app.py` with the actual name of your Python file).
 5.  **Using the Application Window:** Follow steps 3-10 from the "Using the Standalone Executable" section above.
 
-## Building the Executable (from Source)
-
-If you want to create your own standalone `.exe` file from the source code:
-
-1.  **Ensure Prerequisites:**
-    * Python is installed.
-    * `customtkinter` is installed (`pip install customtkinter`).
-    * `chdman.exe` is present in your source directory (PyInstaller will bundle files it finds there if instructed, or the app will look for it at runtime).
-2.  **Install PyInstaller:**
-    ```bash
-    pip install pyinstaller
-    ```
-3.  **Open Command Prompt/Terminal:** Navigate to your script's directory.
-4.  **Run PyInstaller:**
-    ```bash
-    pyinstaller --onefile --windowed --icon="your_icon.ico" --add-data "chdman.exe:." your_script_name.py
-    ```
-    * `--onefile`: Creates a single executable.
-    * `--windowed`: No console window when the GUI runs.
-    * `--icon="your_icon.ico"`: (Optional) Path to your application icon.
-    * `--add-data "chdman.exe:."`: This tells PyInstaller to bundle `chdman.exe` (assuming it's in the same directory as your script) into the root of your packaged application. The `:.` means copy `chdman.exe` to the root of the bundle.
-    * Replace `your_script_name.py` with the actual script name.
-5.  **Locate Executable:** The `.exe` will be in the `dist` folder. `chdman.exe` should now be bundled with it.
-
 ## Important Warnings (from original script)
 
 * **FILE DELETION:** If the "Delete original files..." option is checked, the application **WILL PERMANENTLY DELETE** the original source files and associated files (like `.bin` files for `.cue` sheets) after *all* selected files in a batch are processed successfully. **ALWAYS BACK UP YOUR FILES before using this feature, especially if your source and destination directories are the same.**
