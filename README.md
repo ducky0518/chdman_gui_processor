@@ -67,7 +67,7 @@ This section describes how to run the application directly using Python.
 
 **Steps:**
 
-1.  **Download/Clone Source Code:** Obtain the Python script file (e.g., `chd_app.py`).
+1.  **Download/Clone Source Code:** Obtain the Python script file (e.g., `chdman_app.py`).
 2.  **Place `chdman.exe`:** Ensure `chdman.exe` is in the same directory as the Python script.
 3.  **Install Dependencies:** Open a terminal or command prompt and install CustomTkinter:
     ```bash
@@ -75,9 +75,9 @@ This section describes how to run the application directly using Python.
     ```
 4.  **Run the Script:** Navigate to the directory containing the script and `chdman.exe`, then run:
     ```bash
-    python chd_app.py
+    python chdman_app.py
     ```
-    (Replace `chd_app.py` with the actual name of your Python file).
+    (Replace `chdman_app.py` with the actual name of your Python file).
 5.  **Using the Application Window:** Follow steps 3-10 from the "Using the Standalone Executable" section above.
 
 ## Important Warnings (from original script)
