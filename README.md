@@ -6,6 +6,8 @@ This application provides a user-friendly graphical interface (GUI) for compress
 
 This tool is built using Python and the CustomTkinter library.
 
+![chdman_gui_processor screenshot](chdman_gui_processor.png)
+
 ## Features
 
 * **Graphical User Interface:** Modern and easy-to-use interface for managing conversions.
