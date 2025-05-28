@@ -17,6 +17,7 @@ This tool is built using Python and the CustomTkinter library.
     * `.iso`
     * `.gdi`
     * `.iso` (with a fix for certain PS2 CD-based CHDs that were made incorrectly)
+* **Natively supports processing these files from within .zip files** - No more extracting zips before processing!
 * **Separate Source & Destination:** Clearly define where your original files are and where the converted files should go.
 * **Recursive Scanning:** Scans the source directory and its subdirectories for compatible files.
 * **Batch Processing:** Process multiple files in one go.
